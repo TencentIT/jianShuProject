@@ -32,3 +32,12 @@ CSSTransition 里面的 slide 有4个阶段类：
     }
 
 5 引入 redux  框架， react-redux 是在让我们可以在react中用 redux 
+
+    <Provider store={store}> // 可以理解为 Provider 把store里的数据都提供给 内部的组件  Header
+        <div> 
+           <GlobalStyle/>
+          <GlobalStyleIcon/>
+          <Header/>
+        </div>
+      </Provider>
+      
