@@ -30,3 +30,5 @@ CSSTransition 里面的 slide 有4个阶段类：
     .slide-exit-active {
         width:160px;
     }
+
+5 引入 redux  框架， react-redux 是在让我们可以在react中用 redux 
